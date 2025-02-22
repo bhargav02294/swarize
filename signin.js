@@ -11,6 +11,10 @@ document.getElementById("signin-form").addEventListener("submit", function(event
         { email: "admin@swarize.in", password: "admin123" },
         { email: "user@swarize.in", password: "userpass" },
         { email: "bhargavahire22@gmail.com", password: "ahire@123" }
+        { email: "bhargavahire22@gmail.com", password: "Ahire@123" }
+        { email: "bhargavahire@gmail.com", password: "ahire@123" }
+        { email: "bhargavahire@gmail.com", password: "Ahire@123" }
+
 
     ];
 
