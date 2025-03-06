@@ -3,94 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming Soon | SWARIZE</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Coming Soon - Swarize</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            background: url('https://wallpapers.com/images/high/aesthetic-anime-background-m128su89gxnnc170.webp') no-repeat center center/cover;
+            color: rgba(255, 255, 255, 0.814);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+        }
+        .container {
+            position: relative;
+            z-index: 2;
+            background: rgba(0, 0, 0, 0.571);
+            padding: 300px;
+            width: 1500px;
+            border-radius: 10px;
+        }
+        .swarize {
+            font-size: 5rem;
+            font-weight: bold;
+            font-family: 'Times New Roman', serif;
+            color: #e1ba94;
+            position: absolute;
+            top: 5%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        h1 {
+            font-size: 4rem;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        p {
+            font-size: 1.5rem;
+            margin-top: 10px;
+            opacity: 0.8;
+        }
+        
+       
+    </style>
 </head>
 <body>
 
-    <!-- Sign-in Button (Top-Right Corner) -->
-    <div class="top-right">
-        <a href="addtocart.html" class="btn">Add to Cart</a>
+    <div class="moon"></div>
+    <div class="container">
+        <div class="swarize">swarize</div>
 
-        <a href="signin.html" class="btn">Sign In</a>
+        <h1>Coming Soon</h1>
+        <p>Something exciting is on the way. Stay tuned!</p>
     </div>
-
-    <!-- Main Content (Centered) -->
-    <div class="center-content">
-        <h1>🚀 SWARIZE is Coming Soon!🚀</h1>
-        <p>Stay tuned for something amazing.</p>
-    </div>
-<!-- Product Section -->
-<div id="products-section">
-    <div class="product-container">
-        <div class="product-card">
-            <img src="https://th.bing.com/th/id/OIP.r4oUX9JybCvi-jnuTTEp8wHaHa?w=192&h=192&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Casual Denim Shirt">
-            <h3>Casual Denim Shirt</h3>
-            <p>Premium denim, soft feel, and perfect for any occasion.</p>
-            <p class="price">₹1,299</p>
-            <a href="#" class="cart-btn" data-name="Casual Denim Shirt" data-price="1299">Add to Cart</a>
-
-            <a href="#" class="buy-btn">Buy Now</a>
-        </div>
-        <div class="product-card">
-            <img src="https://th.bing.com/th/id/OIP.KbUv6b-GPCvtXgxfnwA4yAHaJ_?w=148&h=199&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Leather Jacket">
-            <h3>Classic Leather Jacket</h3>
-            <p>High-quality leather, durable and stylish for winter.</p>
-            <p class="price">₹3,499</p>
-            <a href="#" class="cart-btn" data-name="Classic Leather Jacket" data-price="3499">Add to Cart</a>
-
-            <a href="#" class="buy-btn">Buy Now</a>
-        </div>
-        <div class="product-card">
-            <img src="https://th.bing.com/th/id/OIP.bQOu-h0jJ2Ac0ax41ZH_oAHaJz?w=208&h=275&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Cotton Kurti">
-            <h3>Handloom Cotton Kurti</h3>
-            <p>Soft fabric, breathable, and stylish ethnic wear.</p>
-            <p class="price">₹899</p>
-            <a href="#" class="cart-btn" data-name="Handloom Cotton Kurti" data-price="899">Add to Cart</a>
-
-            <a href="#" class="buy-btn">Buy Now</a>
-        </div>
-        <div class="product-card">
-            <img src="https://th.bing.com/th/id/OIP.50p-3Qqw5EzYIXz-N2-f8wHaHa?w=199&h=199&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Running Shoes">
-            <h3>Breathable Running Shoes</h3>
-            <p>Lightweight, durable, and perfect for long runs.</p>
-            <p class="price">₹2,199</p>
-            <a href="#" class="cart-btn" data-name="Breathable Running Shoes" data-price="2199">Add to Cart</a>
-
-            <a href="#" class="buy-btn">Buy Now</a>
-        </div>
-        <div class="product-card">
-            <img src="https://th.bing.com/th/id/OIP.yoRqXFhgJ4rF8r0CtWDSrAHaFf?w=263&h=195&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Acrylic Paint Set">
-            <h3>Artist Acrylic Paint Set</h3>
-            <p>Vibrant colors, long-lasting, and beginner-friendly.</p>
-            <p class="price">₹799</p>
-            <a href="#" class="cart-btn" data-name="Artist Acrylic Paint Set" data-price="799">Add to Cart</a>
-
-            <a href="#" class="buy-btn">Buy Now</a>
-        </div>
-        <div class="product-card">
-            <img src="https://th.bing.com/th/id/OIP.JYuR53INQKHjPQ2OLmQgnAHaIk?w=161&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Wireless Earbuds">
-            <h3>Wireless Earbuds</h3>
-            <p>Crystal clear sound & long battery life.</p>
-            <p class="price">₹1,999</p>
-            <a href="#" class="cart-btn" data-name="Wireless Earbuds" data-price="1999">Add to Cart</a>
-
-            <a href="#" class="buy-btn">Buy Now</a>
-        </div>
-    </div>
-</div>
-
-    <!-- Footer Buttons -->
-    <div class="footer">
-        <a href="privacy-policy.html" class="btn">Privacy Policy</a>
-        <a href="terms-and-conditions.html" class="btn">Terms & Conditions</a>
-        <a href="contact-us.html" class="btn">Contact Us</a>
-        <a href="shipping-policy.html" class="btn">Shipping Policy</a>
-        <a href="refund-policy.html" class="btn">Cancellations & Refunds</a>
-    </div>
-
-
-    <script src="script.js"></script>
-
+    
+   
 </body>
 </html>
